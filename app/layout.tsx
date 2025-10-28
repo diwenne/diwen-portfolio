@@ -42,7 +42,9 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider>
           <SplashCursor />
-          {children}
+          <div className="relative z-10 pointer-events-auto">
+            {children}
+          </div>
           <Analytics />
         </ThemeProvider>
       </body>

@@ -78,6 +78,13 @@
     overflow-x: hidden;
   }
 
+  /* Smooth page transitions */
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      view-transition-name: none;
+    }
+  }
+
   /* Smooth transitions only when theme-transitioning class is present */
   html.theme-transitioning,
   html.theme-transitioning * {
