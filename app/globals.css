@@ -68,10 +68,16 @@
   * {
     @apply border-border;
   }
+
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
-  
+
   /* Smooth transitions only when theme-transitioning class is present */
   html.theme-transitioning,
   html.theme-transitioning * {
@@ -96,7 +102,7 @@
   .hover-underline-nudge {
     position: relative;
     display: inline-block; /* ensure transform affects line box */
-    transition: transform 150ms ease;
+    transition: transform 450ms ease;
   }
   .hover-underline-nudge::after {
     content: "";
@@ -108,7 +114,7 @@
     background-color: currentColor;
     transform: scaleX(0);
     transform-origin: left;
-    transition: transform 180ms ease;
+    transition: transform 900ms ease;
   }
   .hover-underline-nudge:hover {
     transform: translateY(-2px);
