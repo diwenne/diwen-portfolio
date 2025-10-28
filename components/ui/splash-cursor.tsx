@@ -1341,7 +1341,7 @@ function SplashCursor({
 
   return (
     <div className="fixed top-0 left-0 z-0 pointer-events-none">
-      <canvas ref={canvasRef} id="fluid" className="w-screen h-screen" />
+      <canvas ref={canvasRef} id="fluid" className="w-screen h-screen" style={{ willChange: 'contents' }} />
     </div>
   );
 }
