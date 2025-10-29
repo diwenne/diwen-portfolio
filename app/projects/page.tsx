@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import ExpandableItem from '@/components/expandable-item';
+import { Footer } from '@/components/footer';
+import { useNavigationBounce } from '@/lib/useNavigationBounce';
 
 const projectData = [
   {
@@ -61,6 +63,8 @@ const projectData = [
 ];
 
 export default function Projects() {
+  const { shouldBounce } = useNavigationBounce('projects');
+
   return (
     <main className="relative">
       <div className="relative z-10 mx-auto max-w-screen-sm px-4 sm:px-0">
@@ -73,7 +77,9 @@ export default function Projects() {
             <div className="flex items-center gap-2 font-extralight">
               <Link href="/" className="hover-underline-nudge">Home</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
-              <Link href="/work" className="hover-underline-nudge">Work</Link>
+              <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
+              <span className="text-neutral-400 dark:text-neutral-600">|</span>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>
             </div>
           </div>
         </div>
@@ -81,7 +87,7 @@ export default function Projects() {
         <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
         {/* Project Items */}
-        <div className="pb-16 sm:pb-24">
+        <div>
           {projectData.map((item, index) => (
             <ExpandableItem
               key={index}
@@ -95,6 +101,8 @@ export default function Projects() {
             />
           ))}
         </div>
+
+        <Footer />
       </div>
     </main>
   );

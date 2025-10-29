@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { Footer } from '@/components/footer';
 
 export default function FaststartSeriesCaseStudy() {
   return (
@@ -14,7 +17,7 @@ export default function FaststartSeriesCaseStudy() {
           <span>Faststart Series</span>
         </div>
 
-        <article className="case-study pb-16 sm:pb-24">
+        <article className="case-study">
           <header>
             <h1>Programming Faststart Series</h1>
             <p className="subtitle">
@@ -133,6 +136,8 @@ export default function FaststartSeriesCaseStudy() {
             </p>
           </section>
         </article>
+
+        <Footer />
       </div>
     </main>
   );

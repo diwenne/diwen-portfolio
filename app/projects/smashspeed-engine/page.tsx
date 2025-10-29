@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
+import { Footer } from '@/components/footer';
 
 export default function SmashspeedCaseStudy() {
   return (
@@ -14,7 +17,7 @@ export default function SmashspeedCaseStudy() {
           <span>Smashspeed Engine</span>
         </div>
 
-        <article className="case-study pb-16 sm:pb-24">
+        <article className="case-study">
           <header>
             <h1>Smashspeed ML Engine</h1>
             <p className="subtitle">
@@ -195,6 +198,8 @@ export default function SmashspeedCaseStudy() {
             </ul>
           </section>
         </article>
+
+        <Footer />
       </div>
     </main>
   );

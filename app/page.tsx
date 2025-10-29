@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Mail } from "lucide-react";
-import { SiX, SiLinkedin, SiGithub, SiInstagram } from "react-icons/si";
 import { useNavigationBounce } from "../lib/useNavigationBounce";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { Footer } from "@/components/footer";
 
 function Logo({ src, alt, size = 18, className = "" }: { src: string; alt: string; size?: number; className?: string }) {
   return (
@@ -45,7 +43,7 @@ export default function Home() {
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
               <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce-delayed' : ''}`}>Projects</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover-underline-nudge">Resume</a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>
             </div>
           </div>
           <div>↳ IB Student @ <span className="font-bold slight-italic">Port Moody Secondary</span></div>
@@ -91,27 +89,7 @@ export default function Home() {
           <div>↳ Collaborations, internships, and interesting conversations.</div>
         </div>
 
-        <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
-
-        {/* Contact */}
-        <div className="text-sm sm:text-[0.95rem] leading-tight">
-          <div className="pt-4" />
-          <footer className="pb-16 sm:pb-24">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                <div>◆ Contact:</div>
-                <div className="flex items-center flex-wrap gap-2 sm:gap-3 text-neutral-700 dark:text-neutral-300">
-                  <a className="inline-flex items-center gap-1" href="mailto:diwennee@gmail.com"><Mail size={14} /><span className="hover-underline-nudge">Email</span></a>
-                  <a className="inline-flex items-center gap-1" href="https://github.com/diwenne" target="_blank" rel="noreferrer"><SiGithub size={14} /><span className="hover-underline-nudge">GitHub</span></a>
-                  <a className="inline-flex items-center gap-1" href="https://x.com/diwennee" target="_blank" rel="noreferrer"><SiX size={14} /><span className="hover-underline-nudge">Twitter</span></a>
-                  <a className="inline-flex items-center gap-1" href="https://linkedin.com/in/diwenh5" target="_blank" rel="noreferrer"><SiLinkedin size={14} /><span className="hover-underline-nudge">LinkedIn</span></a>
-                  <a className="inline-flex items-center gap-1" href="https://instagram.com/devdiwen" target="_blank" rel="noreferrer"><SiInstagram size={14} /><span className="hover-underline-nudge">Instagram</span></a>
-                </div>
-              </div>
-              <ThemeToggle />
-            </div>
-          </footer>
-        </div>
+        <Footer />
       </div>
     </main>
   );
