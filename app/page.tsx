@@ -46,47 +46,30 @@ export default function Home() {
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>
             </div>
           </div>
+          <div>↳ Founding Engineer at <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span> (<span className="font-bold slight-italic">UC Berkeley Web3 startup</span>)</div>
           <div>↳ IB Student @ <span className="font-bold slight-italic">Port Moody Secondary</span></div>
           <div>↳ Aspiring <span className="font-bold slight-italic">CS + AI</span> major based in Vancouver</div>
         </div>
 
         <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
 
-        {/* What I'm Working On */}
+        {/* What I've Built */}
         <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
-          <div>◆ Currently:</div>
-          <div>↳ Founding Engineer at <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span> (UC Berkeley Web3 startup) building mobile app with <span className="font-bold slight-italic">React Native</span>.</div>
-          <div>↳ Leading <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed AI</a></Label></span> — <span className="font-bold slight-italic">35,000+ users, #1 Taiwan App Store, #2 Vietnam, #4 Google Play</span> (Sports).</div>
+          <div>◆ What I've built:</div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — <span className="font-bold slight-italic">35,000+ users, #1 App Store Taiwan, #2 Vietnam, 5M+ views</span></div>
+          <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label>Cluely</Label></span></div>
+          <div>↳ Published <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">research on arXiv</a></Label></span>; mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
+          <div>↳ Won <span className="font-bold slight-italic">1st place</span> at BC's largest youth hackathon (<span className="font-bold slight-italic">200K+ LinkedIn impressions</span>)</div>
+          <div>↳ <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development (Swift Faststart textbook)</div>
         </div>
 
         <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
 
-        {/* Highlights */}
+        {/* Stats */}
         <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
-          <div>◆ Highlights:</div>
-          <div>↳ Built real-time computer vision pipeline for Smashspeed using <span className="font-bold slight-italic">YOLOv5, CoreML, Kalman filtering</span> — <span className="font-bold slight-italic">93% accuracy</span> on <span className="font-bold slight-italic">15K+ images</span>.</div>
-          <div>↳ Published research on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span> on shuttlecock tracking; mentored by <span className="font-bold slight-italic">Stanford CS PhD</span> and <span className="font-bold slight-italic">UPenn Data Science MEng</span> graduates.</div>
-          <div>↳ Won <span className="font-bold slight-italic">1st place</span> at Daydream Game Jam (BC's largest youth hackathon) with hands-free game using tongue detection; <span className="font-bold slight-italic">200K+ LinkedIn impressions</span>.</div>
-          <div>↳ Authored <span className="font-bold slight-italic">Swift FastStart</span> (Amazon #1 Best Seller, App Development) and <span className="font-bold slight-italic">Python FastStart</span>.</div>
-          <div>↳ Freelance web design at <span className="font-bold slight-italic"><a href="https://diwen.dev" target="_blank" rel="noopener noreferrer" className="hover-underline-nudge">diwen.dev</a></span> — building client websites with React, Next.js, Tailwind CSS.</div>
-        </div>
-
-        <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
-
-        {/* Background */}
-        <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
-          <div>◆ Background:</div>
-          <div>↳ <span className="font-bold slight-italic">4.0 GPA (97.1%), Rank 2/300</span> • <span className="font-bold slight-italic">SAT 1540</span> • <span className="font-bold slight-italic">IB student, 4 HL courses</span>.</div>
-          <div>↳ <span className="font-bold slight-italic">Python, Swift, TypeScript, React Native, Next.js, PyTorch, YOLOv5, CoreML</span>.</div>
-          <div>↳ Deep Learning Specialization, Google UX Design, Linear Algebra & Calculus (Imperial College).</div>
-        </div>
-
-        <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
-
-        {/* Reach out */}
-        <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
-          <div>◆ Open to:</div>
-          <div>↳ Collaborations, internships, and interesting conversations.</div>
+          <div>◆ Stats:</div>
+          <div>↳ <span className="font-bold slight-italic">4.0 GPA (97.1%), Rank 2/300, SAT 1540 (800M/740E)</span></div>
+          <div>↳ ML Specialization, Google UX Design, Imperial College Mathematics</div>
         </div>
 
         <Footer />
