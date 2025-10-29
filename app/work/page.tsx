@@ -52,7 +52,7 @@ export default function Work() {
         <div className="pt-16 sm:pt-24" />
 
         {/* Header */}
-        <div className="text-sm sm:text-[0.95rem] leading-tight space-y-2">
+        <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
           <div className="flex items-center justify-between">
             <h1 className="underline underline-offset-[3px] font-extralight">◆ Work Experience</h1>
             <div className="flex items-center gap-2 font-extralight">
@@ -65,7 +65,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
+        <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
 
         {/* Work Items */}
         <div>

@@ -11,7 +11,7 @@ export default function SmashspeedCaseStudy() {
         <div className="pt-16 sm:pt-24" />
 
         {/* Breadcrumb */}
-        <div className="text-sm sm:text-[0.95rem] leading-tight mb-6">
+        <div className="text-sm sm:text-[0.95rem] leading-relaxed mb-8">
           <Link href="/projects" className="hover-underline-nudge">Projects</Link>
           <span className="mx-2 text-neutral-400 dark:text-neutral-600">/</span>
           <span>Smashspeed Engine</span>

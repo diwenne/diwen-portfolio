@@ -169,31 +169,31 @@
 
   /* Case Study Styles */
   .case-study h1 {
-    @apply text-2xl sm:text-3xl font-light mb-2;
+    @apply text-2xl sm:text-3xl font-light mb-4;
   }
 
   .case-study h2 {
-    @apply text-xl sm:text-2xl font-light mb-3 mt-8;
+    @apply text-xl sm:text-2xl font-light mb-4 mt-10;
   }
 
   .case-study h3 {
-    @apply text-lg sm:text-xl font-light mb-2 mt-6;
+    @apply text-lg sm:text-xl font-light mb-3 mt-8;
   }
 
   .case-study p {
-    @apply text-sm sm:text-[0.95rem] leading-relaxed mb-4;
+    @apply text-sm sm:text-[0.95rem] leading-relaxed mb-5;
   }
 
   .case-study ul, .case-study ol {
-    @apply text-sm sm:text-[0.95rem] leading-relaxed mb-4 ml-6;
+    @apply text-sm sm:text-[0.95rem] leading-relaxed mb-5 ml-6;
   }
 
   .case-study li {
-    @apply mb-2;
+    @apply mb-3;
   }
 
   .case-study section {
-    @apply mb-8;
+    @apply mb-10;
   }
 
   .case-study .subtitle {
