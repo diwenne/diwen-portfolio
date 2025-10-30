@@ -55,7 +55,7 @@ export default function ExpandableItem({
       >
         <div className="flex items-start gap-3 flex-1">
           {/* Chevron indicator */}
-          <div className="flex-shrink-0 pt-1">
+          <div className="flex-shrink-0 self-center">
             <svg
               className={`w-4 h-4 text-neutral-400 dark:text-neutral-500 transition-transform duration-200 group-hover:text-neutral-600 dark:group-hover:text-neutral-300 ${
                 isExpanded ? 'rotate-90' : ''
@@ -63,6 +63,7 @@ export default function ExpandableItem({
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
