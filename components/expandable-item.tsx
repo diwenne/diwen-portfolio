@@ -54,6 +54,19 @@ export default function ExpandableItem({
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div className="flex items-start gap-3 flex-1">
+          {/* Chevron indicator */}
+          <div className="flex-shrink-0 pt-1">
+            <svg
+              className={`w-4 h-4 text-neutral-400 dark:text-neutral-500 transition-transform duration-200 group-hover:text-neutral-600 dark:group-hover:text-neutral-300 ${
+                isExpanded ? 'rotate-90' : ''
+              }`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
           <div className="flex-shrink-0 w-[40px] h-[40px] flex items-center justify-center">
             {isImagePath ? (
               <Image
@@ -71,7 +84,7 @@ export default function ExpandableItem({
             <h3 className="text-sm sm:text-[0.95rem] font-normal">
               {titleContent}
             </h3>
-            <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
+            <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 group-hover:text-neutral-800 dark:group-hover:text-neutral-200 transition-colors">
               {subtitleContent}
             </p>
           </div>
@@ -82,7 +95,7 @@ export default function ExpandableItem({
       </div>
 
       {isExpanded && (
-        <div className="pl-[52px] space-y-3">
+        <div className="pl-[80px] space-y-3">
           <p className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">
             {description}
           </p>
