@@ -34,16 +34,18 @@ export default function ExpandableItem({
   const titleContent = link ? (
     isInternalLink ? (
       <Link href={link} className="hover-underline-nudge" onClick={handleLinkClick}>
-        {title}
+        {title} <span className="relative -top-[0.4em] text-[0.8em]">↗</span>
       </Link>
     ) : (
       <a href={link} target="_blank" rel="noopener noreferrer" className="hover-underline-nudge" onClick={handleLinkClick}>
-        {title}
+        {title} <span className="relative -top-[0.4em] text-[0.8em]">↗</span>
       </a>
     )
   ) : (
     title
   );
+
+  const subtitleContent = subtitle;
 
   return (
     <div className="border-t border-neutral-200 dark:border-neutral-700 py-4 space-y-3">
@@ -70,7 +72,7 @@ export default function ExpandableItem({
               {titleContent}
             </h3>
             <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
-              {subtitle}
+              {subtitleContent}
             </p>
           </div>
         </div>
