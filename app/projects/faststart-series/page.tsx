@@ -137,6 +137,19 @@ export default function FaststartSeriesCaseStudy() {
           </section>
         </article>
 
+        {/* Back Navigation */}
+        <div className="my-6 border-t border-neutral-200 dark:border-neutral-700 pt-6">
+          <div className="flex items-center gap-4">
+            <Link href="/projects" className="hover-underline-nudge font-extralight text-sm sm:text-[0.95rem]">
+              ← Back to Projects
+            </Link>
+            <span className="text-neutral-400">|</span>
+            <Link href="/" className="hover-underline-nudge font-extralight text-sm sm:text-[0.95rem]">
+              ← Back to Home
+            </Link>
+          </div>
+        </div>
+
         <Footer />
       </div>
     </main>
