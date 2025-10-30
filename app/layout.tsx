@@ -15,7 +15,18 @@ const inter = Inter({ subsets: ['latin'], weight: ['200','300'] })
 export const metadata: Metadata = {
   title: "Diwen Huang",
   description: 'Aspiring CS + AI major based in Vancouver',
-  icons: { icon: '/favicon.ico' },
+  icons: { icon: '/puzzle.jpg' },
+  openGraph: {
+    title: "Diwen Huang",
+    description: 'Aspiring CS + AI major based in Vancouver',
+    images: ['/puzzle.jpg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Diwen Huang",
+    description: 'Aspiring CS + AI major based in Vancouver',
+    images: ['/puzzle.jpg'],
+  },
 }
 
 export default function RootLayout({
