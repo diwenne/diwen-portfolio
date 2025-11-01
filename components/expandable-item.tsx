@@ -31,14 +31,29 @@ export default function ExpandableItem({
     e.stopPropagation();
   };
 
+  const ArrowIcon = () => (
+    <svg
+      className="inline-block w-[0.75em] h-[0.75em] relative -top-[0.35em]"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M7 17L17 7" />
+      <path d="M7 7h10v10" />
+    </svg>
+  );
+
   const titleContent = link ? (
     isInternalLink ? (
-      <Link href={link} className="hover-underline-nudge" onClick={handleLinkClick}>
-        {title} <span className="relative -top-[0.4em] text-[0.8em]">↗</span>
+      <Link href={link} className="hover-underline-nudge inline-flex items-baseline gap-0.5" onClick={handleLinkClick}>
+        {title} <ArrowIcon />
       </Link>
     ) : (
-      <a href={link} target="_blank" rel="noopener noreferrer" className="hover-underline-nudge" onClick={handleLinkClick}>
-        {title} <span className="relative -top-[0.4em] text-[0.8em]">↗</span>
+      <a href={link} target="_blank" rel="noopener noreferrer" className="hover-underline-nudge inline-flex items-baseline gap-0.5" onClick={handleLinkClick}>
+        {title} <ArrowIcon />
       </a>
     )
   ) : (
