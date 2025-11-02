@@ -21,6 +21,7 @@ const workData = [
     title: 'President',
     subtitle: 'Stemsphere Foundation',
     link: 'https://stemsf.org',
+    githubLink: 'https://github.com/diwenne/stemsphere',
     date: '2025 - Present',
     description:
       'Founded a non-profit with the mission to provide STEM education and mentorship for young people. I lead a team of 8 executive directors to develop and execute programs that empower the next generation of innovators and problem-solvers.',
@@ -30,6 +31,7 @@ const workData = [
     icon: '/enhanced.png',
     title: 'Badminton Coach',
     subtitle: 'Enhanced Badminton • NCCP Level 2 Certified',
+    githubLink: 'https://github.com/diwenne/enhancedbadminton',
     date: '2024 - Present',
     description:
       'Coaching in various competitions, group lessons, and private lessons, focusing on player development and strategic gameplay.',
@@ -76,6 +78,7 @@ export default function Work() {
               title={item.title}
               subtitle={item.subtitle}
               link={item.link}
+              githubLink={item.githubLink}
               date={item.date}
               description={item.description}
               tags={item.tags}
