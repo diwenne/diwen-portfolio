@@ -35,7 +35,7 @@ export default function ExpandableItem({
 
   const ArrowIcon = () => (
     <svg
-      className="inline-block w-[0.75em] h-[0.75em] relative -top-[0.35em]"
+      className="inline-block w-[1em] h-[1em]"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -50,7 +50,7 @@ export default function ExpandableItem({
 
   const GitHubIcon = () => (
     <svg
-      className="inline-block w-[0.75em] h-[0.75em] relative -top-[0.35em]"
+      className="inline-block w-[1em] h-[1em]"
       viewBox="0 0 24 24"
       fill="currentColor"
     >
