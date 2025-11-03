@@ -108,7 +108,7 @@
   /* Smooth underline + slight nudge without affecting layout at rest */
   .hover-underline-nudge {
     position: relative;
-    display: inline-block; /* ensure transform affects line box */
+    display: inline; /* inline to prevent full-width underline on mobile */
     transition: transform 450ms ease;
   }
   .hover-underline-nudge::after {

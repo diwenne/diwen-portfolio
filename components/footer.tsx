@@ -21,7 +21,9 @@ export function Footer() {
               <a className="inline-flex items-center gap-1" href="https://instagram.com/devdiwen" target="_blank" rel="noreferrer"><SiInstagram size={14} /><span className="hover-underline-nudge">Instagram</span></a>
             </div>
           </div>
-          <ThemeToggle />
+          <div className="sm:ml-auto">
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </footer>
