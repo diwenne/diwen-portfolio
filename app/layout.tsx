@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'], weight: ['200','300'] })
 export const metadata: Metadata = {
   title: "Diwen Huang",
   description: 'Aspiring CS + AI major based in Vancouver',
-  icons: { icon: '/orangerect.png' },
+  icons: { icon: '/favicon.png' },
   openGraph: {
     title: "Diwen Huang",
     description: 'Aspiring CS + AI major based in Vancouver',
