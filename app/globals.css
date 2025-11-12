@@ -137,6 +137,11 @@
 
   .nav-bounce-delayed {
     animation: bounce-gentle 2s infinite;
+    animation-delay: 0.5s;
+  }
+
+  .nav-bounce-delayed-more {
+    animation: bounce-gentle 2s infinite;
     animation-delay: 1s;
   }
 
