@@ -56,10 +56,11 @@ export default function Home() {
         {/* What I've Built */}
         <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
           <div>◆ What I've built:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — <span className="font-bold slight-italic">40,000+ users, #1 App Store Taiwan, #2 Vietnam, 5M+ views in 2 months as a tenth grader</span></div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — measure the speed of badminton smashes, my first project</div>
+          <div className="ml-4">↳ <span className="font-bold slight-italic">40,000+ users, #1 App Store Taiwan, #2 Vietnam, #4 Google Play, 5M+ views in 2 months as a tenth grader</span></div>
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
           <div>↳ Shuttlecock tracking <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">research on arXiv</a></Label></span> — mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
-          <div>↳ Hands-free game using tongue detection — <span className="font-bold slight-italic">won hackathon, 200K+ LinkedIn impressions</span></div>
+          <div>↳ Hands-free game using tongue detection — <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 200K+ LinkedIn impressions</span></div>
           <div>↳ <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development (Swift Faststart textbook)</div>
         </div>
 
