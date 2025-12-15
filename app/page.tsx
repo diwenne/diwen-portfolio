@@ -58,14 +58,14 @@ export default function Home() {
         {/* What I've Built */}
         <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
           <div>◆ What I've built:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — measure the speed of badminton smashes, my first project</div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — measure the speed of badminton smashes, my first project</div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">40,000+ users</span>, <span className="font-bold slight-italic">5M+ views</span> in 2 months as a tenth grader</div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">#1 App Store Taiwan, #2 Vietnam, #4 Google Play</span></div>
           <div className="ml-4">↳ hand-annotated <span className="font-bold slight-italic">15,000 images</span> to achieve <span className="font-bold slight-italic">YOLOv5 93% accuracy</span></div>
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
           <div>↳ Shuttlecock tracking research on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span> — mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
           <div>↳ Chrome runner game using Computer Vision — <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 200K+ LinkedIn impressions</span></div>
-          <div>↳ Programming books –– <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development</div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><span className="text-base">📖</span><Label><a href="/projects/faststart-series" className="hover-underline-nudge">Programming books</a></Label></span> –– <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development</div>
         </div>
 
         <Footer />
