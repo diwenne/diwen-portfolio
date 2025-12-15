@@ -27,22 +27,22 @@ const workData = [
       'Founded a non-profit with the mission to provide STEM education and mentorship for young people. I lead a team of 8 executive directors to develop and execute programs that empower the next generation of innovators and problem-solvers.',
     tags: ['Founder', 'Leadership', 'Management', 'Non-Profit', 'STEM Education'],
   },
-  {
-    icon: '/enhanced.png',
-    title: 'Badminton Coach',
-    subtitle: 'Enhanced Badminton • NCCP Level 2 Certified',
-    githubLink: 'https://github.com/diwenne/enhancedbadminton',
-    date: '2024 - Present',
-    description:
-      'Coaching in various competitions, group lessons, and private lessons, focusing on player development and strategic gameplay.',
-    tags: [
-      'Leadership',
-      'Communication',
-      'Mentorship',
-      'Strategy',
-      'Time Management',
-    ],
-  },
+  // {
+  //   icon: '/enhanced.png',
+  //   title: 'Badminton Coach',
+  //   subtitle: 'Enhanced Badminton • NCCP Level 2 Certified',
+  //   githubLink: 'https://github.com/diwenne/enhancedbadminton',
+  //   date: '2024 - Present',
+  //   description:
+  //     'Coaching in various competitions, group lessons, and private lessons, focusing on player development and strategic gameplay.',
+  //   tags: [
+  //     'Leadership',
+  //     'Communication',
+  //     'Mentorship',
+  //     'Strategy',
+  //     'Time Management',
+  //   ],
+  // },
 ];
 
 export default function Work() {

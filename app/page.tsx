@@ -37,7 +37,7 @@ export default function Home() {
         {/* Header */}
         <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
           <div className="flex items-center justify-between">
-            <h1 className="underline underline-offset-[3px] font-extralight">◆ Diwen Huang</h1>
+            <h1 className="underline underline-offset-[3px] font-extralight">◆ Diwen Huang, 16</h1>
             <div className="flex items-center gap-2 font-extralight">
               <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
@@ -46,9 +46,11 @@ export default function Home() {
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed-more' : ''}`}>Resume</a>
             </div>
           </div>
+
+
           <div>↳ Founding Engineer at <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span> (<span className="font-bold slight-italic">UC Berkeley Web3 startup</span>)</div>
-          <div>↳ IB Student @ <span className="font-bold slight-italic">Port Moody Secondary</span></div>
-          <div>↳ Aspiring <span className="font-bold slight-italic">CS + AI</span> major based in Vancouver</div>
+
+
         </div>
 
         <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
@@ -59,20 +61,11 @@ export default function Home() {
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="https://smashspeed.ca" target="_blank" rel="noreferrer" className="hover-underline-nudge">Smashspeed</a></Label></span> — measure the speed of badminton smashes, my first project</div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">40,000+ users</span>, <span className="font-bold slight-italic">5M+ views</span> in 2 months as a tenth grader</div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">#1 App Store Taiwan, #2 Vietnam, #4 Google Play</span></div>
-          <div className="ml-4">↳ had too much free time so hand-annotated <span className="font-bold slight-italic">15,000 images</span> to achieve <span className="font-bold slight-italic">YOLOv5 93% accuracy</span></div>
+          <div className="ml-4">↳ hand-annotated <span className="font-bold slight-italic">15,000 images</span> to achieve <span className="font-bold slight-italic">YOLOv5 93% accuracy</span></div>
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
-          <div>↳ Shuttlecock tracking <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">research on arXiv</a></Label></span> — mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
-          <div>↳ Hands-free game using tongue detection — <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 200K+ LinkedIn impressions</span></div>
+          <div>↳ Shuttlecock tracking research on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span> — mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
+          <div>↳ Chrome runner game using Computer Vision — <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 200K+ LinkedIn impressions</span></div>
           <div>↳ <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development (Swift Faststart textbook)</div>
-        </div>
-
-        <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
-
-        {/* Stats */}
-        <div className="text-sm sm:text-[0.95rem] leading-relaxed space-y-3">
-          <div>◆ Stats:</div>
-          <div>↳ <span className="font-bold slight-italic">4.0 GPA (97.1%), Rank 2/300, SAT 1540 (800M/740E)</span></div>
-          <div>↳ ML Specialization, Google UX Design, Imperial College Mathematics</div>
         </div>
 
         <Footer />

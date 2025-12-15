@@ -22,7 +22,7 @@ const projectData = [
     link: 'https://haocuii.itch.io/steve-the-freakysaur',
     githubLink: 'https://github.com/diwenne/freakysaur_next',
     date: 'September 2025',
-    description: 'Co-created "Steve the Freakysaur," a Chrome Dino–style game controlled entirely hands-free using tongue detection through real-time facial landmark segmentation. Built during BC\'s biggest youth hackathon (Daydream Game Jam), which was also the largest Daydream event in North America, the project won 1st place out of 124 participants and 50+ projects. The game features single-player, two-player, and Flappy Bird–style modes, and was prototyped in Pygame before being ported to Next.js with TypeScript for web play.',
+    description: 'Created "Steve the Freakysaur," a Chrome Dino–style game controlled entirely hands-free using tongue detection through real-time facial landmark segmentation. Built during BC\'s biggest youth hackathon (Daydream Game Jam), which was also the largest Daydream event in North America, the project won 1st place out of 124 participants and 50+ projects. The game features single-player, two-player, and Flappy Bird–style modes, and was prototyped in Pygame before being ported to Next.js with TypeScript for web play.',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Pygame', 'Computer Vision', 'Hackathon', 'Game Development', 'Segmentation Model', '200k+ LinkedIn Impressions']
   },
   {
@@ -43,16 +43,16 @@ const projectData = [
     description: 'Authored and self-published a series of textbooks designed to modernize the way beginners learn to code. The books, starting with Python and Swift, emphasize a hands-on, project-based approach, teaching fundamental concepts with the assumption that AI tools are available to supplement learning. The series focuses on developing problem-solving skills and preparing new programmers for the modern development landscape. Swift Faststart achieved Amazon #1 Best Seller status in September 2025 (Mobile App Development & Programming).',
     tags: ['Python', 'Swift', 'Authoring', 'Design', 'Publishing', 'AI in Education', 'Amazon Best Seller']
   },
-  {
-    icon: '🌐',
-    title: 'Web Design',
-    subtitle: 'Portfolio of commissioned client websites.',
-    link: 'https://diwen.dev',
-    githubLink: 'https://github.com/diwenne/diwensstudio',
-    date: 'August 2025',
-    description: 'I get commissioned by clients to design and develop modern, responsive, and SEO-optimized websites. Each project emphasizes fast shipping, clean UX design principles, and cutting-edge web technologies including TypeScript, Next.js, Vite, Tailwind CSS, and custom CSS. My work focuses on delivering high-performance websites that look great on all devices and rank well in search engines.',
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'CSS', 'Vite', 'UX Design', 'SEO', 'Responsive Design']
-  },
+  // {
+  //   icon: '🌐',
+  //   title: 'Web Design',
+  //   subtitle: 'Portfolio of commissioned client websites.',
+  //   link: 'https://diwen.dev',
+  //   githubLink: 'https://github.com/diwenne/diwensstudio',
+  //   date: 'August 2025',
+  //   description: 'I get commissioned by clients to design and develop modern, responsive, and SEO-optimized websites. Each project emphasizes fast shipping, clean UX design principles, and cutting-edge web technologies including TypeScript, Next.js, Vite, Tailwind CSS, and custom CSS. My work focuses on delivering high-performance websites that look great on all devices and rank well in search engines.',
+  //   tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'CSS', 'Vite', 'UX Design', 'SEO', 'Responsive Design']
+  // },
   {
     icon: '/smashspeed.png',
     title: 'Smashspeed',
