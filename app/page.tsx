@@ -65,7 +65,7 @@ export default function Home() {
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
           <div>↳ Shuttlecock tracking research on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span> — mentored by <span className="font-bold slight-italic">Stanford CS PhD, UPenn Data Science MEng</span></div>
           <div>↳ Chrome runner game using Computer Vision — <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 200K+ LinkedIn impressions</span></div>
-          <div>↳ <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development (Swift Faststart textbook)</div>
+          <div>↳ Programming books –– <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development</div>
         </div>
 
         <Footer />
