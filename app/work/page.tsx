@@ -62,6 +62,8 @@ export default function Work() {
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
               <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce' : ''}`}>Projects</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
+              <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
+              <span className="text-neutral-400 dark:text-neutral-600">|</span>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>
             </div>
           </div>
