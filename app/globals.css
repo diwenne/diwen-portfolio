@@ -76,6 +76,8 @@
   body {
     @apply bg-background text-foreground;
     overflow-x: hidden;
+    /* Ensure background and text transition together */
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   /* Smooth page transitions */
