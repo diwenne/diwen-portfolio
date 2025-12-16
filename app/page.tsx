@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>↳ Founding Engineer at <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span></div>
+          <div>↳ Founding Engineer <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span></div>
           <div className="ml-4">↳ backed by <span className="inline-flex items-center align-middle gap-1"><Logo src="/berkeley.png" alt="UC Berkeley" /><Label><a href="https://berkeley.edu" target="_blank" rel="noreferrer" className="hover-underline-nudge">UC Berkeley</a></Label></span> & <span className="inline-flex items-center align-middle gap-1"><Logo src="/virtuals.png" alt="Virtuals Protocol" /><Label><a href="https://virtuals.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Virtuals Protocol</a></Label></span></div>
         </div>
 
