@@ -80,8 +80,8 @@ export default function Projects() {
             <div className="flex items-center gap-2 font-extralight">
               <Link href="/" className="hover-underline-nudge">Home</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
-              <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
-              <span className="text-neutral-400 dark:text-neutral-600">|</span>
+              {/* <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
+              <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
               <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>

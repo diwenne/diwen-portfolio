@@ -41,7 +41,9 @@ export default function Writing() {
                             <span className="text-neutral-400 dark:text-neutral-600">|</span>
                             <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce' : ''}`}>Projects</Link>
                             <span className="text-neutral-400 dark:text-neutral-600">|</span>
-                            <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce-delayed' : ''}`}>Work</Link>
+                            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed' : ''}`}>Resume</a>
+                            {/* <span className="text-neutral-400 dark:text-neutral-600">|</span>
+                            <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce-delayed' : ''}`}>Work</Link> */}
                         </div>
                     </div>
                 </div>
