@@ -8,8 +8,7 @@ export function Footer() {
   return (
     <footer className="pb-16 sm:pb-24">
       <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
-      <div className="text-sm sm:text-[0.95rem] leading-tight">
-        <div className="pt-4" />
+      <div className="text-sm sm:text-base leading-tight">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="flex flex-col sm:flex-row sm:items-center gap-3">
             <div>◆ Contact:</div>
