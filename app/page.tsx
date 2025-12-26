@@ -43,8 +43,8 @@ export default function Home() {
               <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
               <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce-delayed' : ''}`}>Projects</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
-              <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
-              <span className="text-neutral-400 dark:text-neutral-600">|</span>
+              {/* <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
+              <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed-more' : ''}`}>Resume</a>
             </div>
           </div>
