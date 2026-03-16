@@ -4,8 +4,35 @@ import Link from 'next/link';
 import ExpandableItem from '@/components/expandable-item';
 import { Footer } from '@/components/footer';
 import { useNavigationBounce } from '@/lib/useNavigationBounce';
+import { SiInstagram } from 'react-icons/si';
 
 const projectData = [
+  {
+    icon: '/clutch.jpeg',
+    title: 'Padel Court Keypoint Detection',
+    subtitle: 'Heatmap-based network with classical computer vision refinement',
+    date: 'Ongoing',
+    description: 'Developed a heatmap-based deep learning network to detect 14 keypoints in broadcast padel video. Utilizes classical CV algorithms (e.g. line intersections, homography matrix tracking) to refine predictions during occlusion, achieving 96% accuracy on a dataset of 8,800+ annotated frames.',
+    tags: ['Python', 'Computer Vision', 'Deep Learning', 'PyTorch', 'Classical CV', 'Homography']
+  },
+  {
+    icon: <SiInstagram size={24} />,
+    title: 'devdiwen',
+    subtitle: 'Math animations & Geometry Dash social media project',
+    link: 'https://instagram.com/devdiwen',
+    date: 'Ongoing',
+    description: 'Social media project making math animations with Geometry Dash clips compiled at bottom. Reached 4000+ followers and a few million views. Experimentating with algorithms and math concepts.',
+    tags: ['Content Creation', 'Math Animation', 'Social Media', 'Algorithms']
+  },
+  {
+    icon: '/clutch.jpeg',
+    title: 'Clutch RAG Shot Search',
+    subtitle: 'AI-powered semantic video search & coaching recommendation engine',
+    link: 'https://clutchapp.io',
+    date: 'December 2025',
+    description: 'Semantic video search app using a RAG pipeline & GPT-4o-mini to search padel video content. Generates personalized coaching recommendations based on player stats and matched clips. Features YouTube transcript ingestion and automated video segmentation for automated clip gathering.',
+    tags: ['Next.js', 'LLM', 'RAG', 'OpenAI', 'Semantic Search', 'Tailwind CSS', 'TypeScript']
+  },
   {
     icon: '/cluely.jpg',
     title: 'Real-time Gaze Tracking System',
