@@ -52,7 +52,10 @@ export default function Home() {
           {/* Introduction Section */}
           <div className="py-1">
             {/* REPLACE THIS WITH YOUR INTRODUCTION */}
-            hellooo! im diwen; im from vancouver and i like math and building stuff. i started coding in grade 9 (a pretty late start) and i think its nice. my favourite subjects are math and physics. hopefully you find what you're looking for here!
+            hellooo! im diwen; im from vancouver and i like math and building stuff. i started coding in grade 9 (a pretty late start) and i think its nice. my favourite subjects are math and physics. bucket list of shows i want to watch: <br />
+            1. chernobyl <br />
+            2. the dark knight<br />
+            hopefully you find what you're looking for here!
           </div>
 
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
