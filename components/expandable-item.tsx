@@ -11,7 +11,7 @@ interface ExpandableItemProps {
   link?: string;
   githubLink?: string;
   date: string;
-  description: string;
+  description: string | React.ReactNode;
   tags: string[];
 }
 
@@ -137,9 +137,9 @@ export default function ExpandableItem({
 
       {isExpanded && (
         <div className="pl-[80px] space-y-3">
-          <p className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">
+          <div className="text-xs sm:text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">
             {description}
-          </p>
+          </div>
           <div className="flex flex-wrap gap-2">
             {tags.map((tag) => (
               <span

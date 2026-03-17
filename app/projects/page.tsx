@@ -12,8 +12,8 @@ const projectData = [
     title: 'Padel Court Keypoint Detection',
     subtitle: 'Heatmap-based network with classical computer vision refinement',
     date: 'Ongoing',
-    description: 'Developed a heatmap-based deep learning network to detect 14 keypoints in broadcast padel video. Utilizes classical CV algorithms (e.g. line intersections, homography matrix tracking) to refine predictions during occlusion, achieving 96% accuracy on a dataset of 8,800+ annotated frames.',
-    tags: ['Python', 'Computer Vision', 'Deep Learning', 'PyTorch', 'Classical CV', 'Homography']
+    description: 'Adapted and trained a heatmap-based Modified TrackNet for keypoint detection in broadcast padel videos, achieving 95.09% validation accuracy (@ 7px) on a ~38,200 frame dataset (245 epochs). Deployed via ONNX with memory arena optimizations. Integrates auxiliary supervision & transfer learning for training stability, alongside homography matrix tracking and sympy line-intersections to extrapolate grid nodes.',
+    tags: ['Python', 'Computer Vision', 'Deep Learning', 'ONNX', 'Fly.io', 'Homography', 'PyTorch']
   },
   {
     icon: <SiInstagram size={24} />,
