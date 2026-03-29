@@ -1,7 +1,8 @@
 'use client';
 
 import { Mail } from "lucide-react";
-import { SiX, SiLinkedin, SiGithub, SiInstagram } from "react-icons/si";
+import { SiX, SiGithub, SiInstagram } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Footer() {
@@ -16,7 +17,7 @@ export function Footer() {
               <a className="inline-flex items-center gap-1" href="mailto:diwennee@gmail.com"><Mail size={14} /><span className="hover-underline-nudge">Email</span></a>
               <a className="inline-flex items-center gap-1" href="https://github.com/diwenne" target="_blank" rel="noreferrer"><SiGithub size={14} /><span className="hover-underline-nudge">GitHub</span></a>
               <a className="inline-flex items-center gap-1" href="https://x.com/diwennee" target="_blank" rel="noreferrer"><SiX size={14} /><span className="hover-underline-nudge">Twitter</span></a>
-              <a className="inline-flex items-center gap-1" href="https://linkedin.com/in/diwenh5" target="_blank" rel="noreferrer"><SiLinkedin size={14} /><span className="hover-underline-nudge">LinkedIn</span></a>
+              <a className="inline-flex items-center gap-1" href="https://linkedin.com/in/diwenh5" target="_blank" rel="noreferrer"><FaLinkedin size={14} /><span className="hover-underline-nudge">LinkedIn</span></a>
               <a className="inline-flex items-center gap-1" href="https://instagram.com/devdiwen" target="_blank" rel="noreferrer"><SiInstagram size={14} /><span className="hover-underline-nudge">Instagram</span></a>
             </div>
           </div>
