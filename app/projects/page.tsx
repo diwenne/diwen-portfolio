@@ -18,11 +18,11 @@ const projectData = [
   {
     icon: <SiInstagram size={24} />,
     title: 'devdiwen',
-    subtitle: 'Math animations & Geometry Dash social media project',
+    subtitle: 'Personal blog & educational social media project',
     link: 'https://instagram.com/devdiwen',
     date: 'Ongoing',
-    description: 'Social media project making math animations with Geometry Dash clips compiled at bottom. Reached 4000+ followers and a few million views. Experimentating with algorithms and math concepts.',
-    tags: ['Content Creation', 'Math Animation', 'Social Media', 'Algorithms']
+    description: 'My personal blog and social media project where I share programming concepts, math animations, and algorithm visualizations. The platform has grown to over 6,000 followers and accumulated 10M+ total views while familiarizing myself with the Instagram algorithm.',
+    tags: ['Content Creation', 'Blog', 'Social Media', 'Algorithms']
   },
   {
     icon: '/clutch.jpeg',
@@ -116,10 +116,8 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="my-4 border-t border-neutral-200 dark:border-neutral-700" />
-
         {/* Project Items */}
-        <div>
+        <div className="mt-4">
           {projectData.map((item, index) => (
             <ExpandableItem
               key={index}

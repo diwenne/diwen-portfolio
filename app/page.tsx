@@ -41,35 +41,30 @@ export default function Home() {
             <div className="flex items-center gap-2 font-extralight">
               {/* <Link href="/work" className={`hover-underline-nudge ${shouldBounce('work') ? 'nav-bounce' : ''}`}>Work</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
-              <Link href="/projects" className={`hover-underline-nudge ${shouldBounce('projects') ? 'nav-bounce-delayed' : ''}`}>Projects</Link>
+              <Link href="/projects" className="hover-underline-nudge">Projects</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span>
               {/* <Link href="/writing" className={`hover-underline-nudge ${shouldBounce('writing') ? 'nav-bounce-delayed' : ''}`}>Writing</Link>
               <span className="text-neutral-400 dark:text-neutral-600">|</span> */}
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`hover-underline-nudge ${shouldBounce('resume') ? 'nav-bounce-delayed-more' : ''}`}>Resume</a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover-underline-nudge">Resume</a>
             </div>
           </div>
 
           {/* Introduction Section */}
           <div className="py-1">
-            {/* REPLACE THIS WITH YOUR INTRODUCTION */}
-            hellooo! im diwen; im from vancouver and i like math and building stuff. i started coding in grade 9 (a pretty late start) and i think its nice. my favourite subjects are math and physics. bucket list of shows i want to watch: <br />
-            1. chernobyl <br />
-            2. the dark knight<br />
-            hopefully you find what you're looking for here!
+            im a 16 yo high school student from vancouver
           </div>
 
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
           <div>◆ Currently:</div>
-          <div>↳ Machine Learning Intern <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutch.jpeg" alt="Clutch" /><Label><a href="https://clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
-          <div className="ml-4">↳ Padel key point detection via heatmap-based deep learning networks</div>
           <div>↳ Founding Engineer <span className="inline-flex items-center align-middle gap-1"><Logo src="/solace.png" alt="Solace" /><Label><a href="https://solacelaunch.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Solace</a></Label></span></div>
           <div className="ml-4">↳ backed by <span className="inline-flex items-center align-middle gap-1"><Logo src="/berkeley.png" alt="UC Berkeley" /><Label><a href="https://berkeley.edu" target="_blank" rel="noreferrer" className="hover-underline-nudge">UC Berkeley</a></Label></span> & <span className="inline-flex items-center align-middle gap-1"><Logo src="/virtuals.png" alt="Virtuals Protocol" /><Label><a href="https://virtuals.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Virtuals Protocol</a></Label></span></div>
 
           <div className="my-3 border-t border-neutral-200 dark:border-neutral-700" />
 
           <div>◆ Previously:</div>
-          <div>↳ Software Engineer Intern <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutch.jpeg" alt="Clutch" /><Label><a href="https://clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
+          <div>↳ x2 Software Engineer Intern <span className="inline-flex items-center align-middle gap-1"><Logo src="/clutch.jpeg" alt="Clutch" /><Label><a href="https://clutchapp.io" target="_blank" rel="noreferrer" className="hover-underline-nudge">Clutch</a></Label></span></div>
+          <div className="ml-4">↳ Padel key point detection via heatmap-based deep learning networks</div>
           <div className="ml-4">↳ RAG-based Padel shot search engine</div>
         </div>
 
@@ -78,10 +73,10 @@ export default function Home() {
         {/* What I've Built */}
         <div className="text-sm sm:text-base leading-tight space-y-3">
           <div>◆ Highlights:</div>
-          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — track badminton smash speed, <span className="font-bold slight-italic">45K+ users, 5M+ views, #1 App Store Taiwan</span></div>
+          <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — track badminton smash speed, <span className="font-bold slight-italic">50K+ users, #1 App Store Taiwan</span></div>
           <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy</span></div>
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
-          <div>↳ Machine learning pipeline for shuttlecock tracking — read on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span></div>
+          <div>↳ Badminton shuttlecock speed estimation pipeline — read on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span></div>
           {/* 
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/steve.png" alt="Freakysaur" /><Label><a href="https://haocuii.itch.io/steve-the-freakysaur" target="_blank" rel="noreferrer" className="hover-underline-nudge">Freakysaur</a></Label></span> — hands-free game, <span className="font-bold slight-italic">won <span className="inline-flex items-center align-middle gap-1"><Logo src="/hackclub.png" alt="Daydream" /><Label><a href="https://daydream.hackclub.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Daydream</a></Label></span>, 250K+ impressions</span></div>
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><span className="text-sm sm:text-base">📖</span><Label><a href="/projects/faststart-series" className="hover-underline-nudge">Programming books</a></Label></span> –– <span className="font-bold slight-italic">Amazon #1 Best Seller</span> in App Development</div>
