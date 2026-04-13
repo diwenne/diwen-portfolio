@@ -18,11 +18,11 @@ const projectData = [
   {
     icon: <SiInstagram size={24} />,
     title: 'devdiwen',
-    subtitle: 'Personal blog & educational social media project',
+    subtitle: 'Content Creation',
     link: 'https://instagram.com/devdiwen',
     date: 'Ongoing',
-    description: 'My personal blog and social media project where I share programming concepts, math animations, and algorithm visualizations. The platform has grown to over 6,000 followers and accumulated 10M+ total views while familiarizing myself with the Instagram algorithm.',
-    tags: ['Content Creation', 'Blog', 'Social Media', 'Algorithms']
+    description: 'My personal blog. Goal is to familiarize with the Instagram algorithm',
+    tags: ['Content Creation']
   },
   {
     icon: '/clutch.jpeg',
