@@ -26,6 +26,39 @@ export default function SmashspeedCaseStudy() {
           </header>
 
           <section>
+            <h2>Highlights</h2>
+            <div className="overview-grid">
+              <div className="overview-item">
+                <h3>Downloads</h3>
+                <p>50K+</p>
+              </div>
+              <div className="overview-item">
+                <h3>Peak App Store Rank</h3>
+                <p>#1 Sports — Taiwan</p>
+              </div>
+              <div className="overview-item">
+                <h3>Social Media Reach</h3>
+                <p>20M+ views</p>
+              </div>
+              <div className="overview-item">
+                <h3>App Store Rating</h3>
+                <p>4.8 ★</p>
+              </div>
+              <div className="overview-item full-width">
+                <h3>Collaborations</h3>
+                <p>
+                  Partnered with{' '}
+                  <a href="https://www.youtube.com/@BadmintonFamly" target="_blank" rel="noopener noreferrer" className="hover-underline-nudge">Badminton Family</a>
+                  {' '}(373K subscribers) and{' '}
+                  <a href="https://www.youtube.com/@Richardbadminton" target="_blank" rel="noopener noreferrer" className="hover-underline-nudge">Richard Badminton</a>
+                  {' '}(62K subscribers) for viral content and sponsored integrations. Reached players worldwide including{' '}
+                  <strong>Viktor Axelsen</strong>, 2× Olympic champion.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
             <h2>Project Overview</h2>
             <div className="overview-grid">
               <div className="overview-item">

@@ -72,9 +72,8 @@ export default function Home() {
 
         {/* What I've Built */}
         <div className="text-sm sm:text-base leading-tight space-y-3">
-          <div>◆ Highlights:</div>
+          <div>◆ Projects:</div>
           <div>↳ <span className="inline-flex items-center align-middle gap-1"><Logo src="/smashspeed.png" alt="Smashspeed" /><Label><a href="/projects/smashspeed-engine" className="hover-underline-nudge">Smashspeed</a></Label></span> — track badminton smash speed, <span className="font-bold slight-italic">50K+ users, #1 App Store Taiwan</span></div>
-          <div className="ml-4">↳ <span className="font-bold slight-italic">15K hand-annotated images → YOLOv5 93% accuracy</span></div>
           <div>↳ Real-time gaze tracking system for <span className="inline-flex items-center align-middle gap-1"><Logo src="/cluely.jpg" alt="Cluely" /><Label><a href="https://cluely.com" target="_blank" rel="noreferrer" className="hover-underline-nudge">Cluely</a></Label></span></div>
           <div>↳ Badminton shuttlecock speed estimation pipeline — read on <span className="inline-flex items-center align-middle gap-1"><Logo src="/arxiv.png" alt="arXiv" /><Label><a href="https://www.arxiv.org/abs/2509.05334" target="_blank" rel="noreferrer" className="hover-underline-nudge">arXiv</a></Label></span></div>
           {/* 
